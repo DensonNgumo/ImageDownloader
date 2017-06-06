@@ -14,5 +14,6 @@ def downloadImage(url):
     urllib.request.urlretrieve(url,imageTitle)
     print("Downloaded")
 
+#Example
 downloadImage("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQl5X3hLq__uUkt6uhJVajsP-F2U8IZ-0WumS12BdOIa4he91HcJnW1cA")
 
